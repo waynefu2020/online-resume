@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="src.5c691113.css">
+    <title>符传威的简历</title>
+    <style media="print">body{margin: 0;}
+        .page2{
+            page-break-before: always;
+            margin-top: 30px;
+        }</style>
+</head>
+
+<body>
+    <article>
+        <section class="profile">
+            <h1>符传威</h1>
+            <img src="avatar.b924104a.jpg" alt="" width="10%">
+            <p>男 | 28岁 | 前端开发工程师 | 广州</p>
+            <p>手机： <a href="tel:18665029907">18665029907</a> | 微信：coolwayne2021 | 邮箱：<a href="mailto:fu.wayne@foxmail.com">fu.wayne@foxmail.com</a></p>
+        </section>
+
+        <section class="projects">
+            <h2>项目经历</h2>
+            <ol>
+                <li>
+                    <header>
+                        <h3>Sky UI - 前端组件库</h3>
+                        <span>
+              <a href="https://waynefu2020.github.io/sky-ui-web/index.html">项目预览</a>
+              <a href="https://gitee.com/ddwayne/sky-ui-dev">源码链接</a>
+
+            </span>
+                    </header>
+                    <p>【简介】一套基于 <strong>Vue 3 和 TypeScript</strong> 搭建的组件库，主要组件有输入框、按钮、开关、标签页切换等，个人项目开发效率提高 30%；</p>
+                    <p>【项目实施】使用 create-vite-app 构建项目、vue-router 组织页面路由、Sass 编写 CSS、github-markdown-css 展示 markdown 文档。在封装组件的基础上，开发独立官方网站，方便在线查看代码；</p>
+                    <p>【成果】这次项目作为深入实践，遇到不少问题，细节分析请移步：<a href="https://juejin.cn/post/6987562123182211080">从0打造一个UI组件库</a> 。通过该项目，掌握了<strong>组件化开发、代码封装和官网框架的搭建</strong>技巧。</p>
+                </li>
+                <li>
+                    <header>
+                        <h3>木木记账 - 移动端应用</h3>
+                        <span>
+                        <a href="https://waynefu2020.github.io/mumu-money-web-2/#/money">项目预览</a>
+
+              <a href="https://gitee.com/ddwayne/mumu-money-react-2">源码链接</a>
+            </span>
+                    </header>
+                    <p>【简介】基于 <strong>React 和 TypeScript</strong> 打造的的一款移动端应用，为了帮助朋友记录日常开支而开发。可以根据收入、支出两大项目记录每日账单，提供了修改记账标签、每日记账明细功能；
+                    </p>
+                    <p>【项目实施】使用 create-react-app 脚手架搭建、styled-component 编写模块化CSS、React Router 添加导航。开发过程中使用了 <strong>useState、useEffect、自定义 hook 等 API</strong> 。在数据持久化方面，使用了 LocalStorage 渲染页面后存入数据，开发过程中将使用到的技术点进行总结并记录到<a href="https://juejin.cn/post/6983846620450258975">博客</a>上；
+                    </p>
+                    <p>【问题和优化】过程中遇到svg组件代码重复和 build 后 github page 页面 404 等问题。针对 svg 代码重复，专门封装了 icon 组件；针对 build 页面的问题，通过 webpack 配置路径即可解决。
+                    </p>
+                </li>
+                <li>
+                    <header>
+                        <h3>命令行中英互译工具</h3>
+                        <span>
+              <a href="https://www.npmjs.com/package/translate-node-2">NPM链接</a>
+              <a href="https://gitee.com/ddwayne/translate-node">源码链接</a>
+            </span>
+                    </header>
+                    <p>【简介】一个基于 <strong>Node.js</strong> 和<strong> TypeScript</strong> 打造的命令行工具，通过 Node.js 调用百度 API 实现在线翻译，有效提升个人查阅文档开发效率；
+                    </p>
+
+                    <p>【项目实施】针对项目中翻译功能和命令行功能进行独立封装。命令行功能使用了 commander.js 设置传入参数。翻译功能使用了 <strong>md5 进行 API 鉴权加密</strong>；http.request 模块进行 chunk 的读取和响应。同时使用了表驱动编程 HashMap，映射不同错误码和对应的错误提示，避免多层循环嵌套重复。该项目让我对 Node.js 有了初步的了解和应用。
+                    </p>
+
+                </li>
+            </ol>
+        </section>
+
+        <section class="openSource">
+            <h2>开源项目</h2>
+            <ul>
+                <li>
+                    <header>
+                        <h3>小橘前端导航</h3>
+                        <span>
+                            <a href="https://waynefu2020.github.io/orange-nav-1/dist/index.html">项目预览</a>
+                        <a href="https://gitee.com/ddwayne/orange-nav-1">源码链接</a>
+                        </span>
+                    </header>
+                    <p>前端通常都需要整理自己常用的文档和工具，方便随时查阅。这是针对工程师的需求而搭建的一款导航站。同时也是帮助自己上手 JQuery 的第一个项目；</p>
+
+                    <p>可以输入关键词进行百度搜索、添加自定义网站、点击图标进入对应网站。网站使用了 HTM5 语义化特性搭建，导入 SVG Icon 作为图标，通过 LocalStorage 存储数据。</p>
+
+                </li>
+                <li class="page2" style="page-break-before: always">
+                    <header>
+                        <h3>会动的太极图</h3>
+                        <span>
+              <a href="https://fangyinghang.com/make-a-pikachu/">项目预览</a>
+              <a href="https://gitee.com/ddwayne/resume-1">源码链接</a>
+            </span>
+                    </header>
+                    <p>用原生 JS + HTML + CSS 制作的一个会动的太极图，自学 JS 期间的一个小作品。主要使用到了 <strong>CSS3 中的 kayframe 和 transform</strong>。通过 JS 操作 DOM 节点来展示动画。</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="others">
+            <h2>其他链接</h2>
+            <ul>
+                <li><a href="https://juejin.cn/user/536217405897502/posts">我的博客</a>，目前已有 <strong>21 篇技术文章；</strong></li>
+                <li><a href="https://github.com/waynefu2020">GitHub</a>，过去 1 年有 <strong>395 次提交。</strong></li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>技能</h2>
+            <div class="wrapper">
+                <ul>
+                    <li>1. 能够编写语义化的 HTML 和模块化的 CSS，熟悉标准化的 <strong>HTML5 和 CSS3</strong> 新特性； </li>
+                    <li>2. 熟悉 <strong>ECMAScript（JavaScript）和 TypeScript</strong> ，使用 <strong>ES6</strong> 新特性提高编码效率，简历中的项目基本上使用 TS 实现；</li>
+                    <li>3. 熟悉 <strong>Vue、React、jQuery</strong> 等主流前端框架，熟悉 MVVM 模型和 ant-design、element-ui 等UI 组件库，对组件化和造轮子有一定理解；</li>
+                    <li>4. 在项目中使用 <strong>Vite、Webpack</strong> 等模块化解决方案和 styled-component、Sass 等预处理工具；</li>
+                    <li>5. 日常熟练使用 <strong>Git 与 WebStrom</strong> 进行源代码版本管理和项目开发，也乐于尝试新工具；</li>
+                    <li>6. 能够使用 Photoshop 进行简单的界面设计。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>教育经历</h2>
+            <p><span><time>2011年</time>~<time>2015年</time></span></p>
+            <p><strong>河南省平顶山学院</strong></p>
+            <p>全日制本科 | 广告学 | 新闻与传播学院</p>
+        </section>
+
+
+    </article>
+    <script src="main.dfc06931.js"></script>
+</body>
+
+</html>
